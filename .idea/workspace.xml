@@ -2,648 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b74c4f2b-d959-46c4-b9a1-f8f7a274f277" name="Default Changelist" comment="Add .gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/AEAD/AEAD.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/AEAD/AEADChaCha20Poly1305.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/AES.Cryptors.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/AES.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Array+Extension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Authenticator.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BatchedCollection.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Bit.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockCipher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockDecryptor.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockEncryptor.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/BlockMode.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/BlockModeOptions.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/CBC.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/CCM.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/CFB.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/CTR.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/CipherModeWorker.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/ECB.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/GCM.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/OCB.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/OFB.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/BlockMode/PCBC.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Blowfish.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/CBCMAC.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/CMAC.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/ChaCha20.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Checksum.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Cipher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Collection+Extension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/CompactMap.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Cryptor.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Cryptors.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Digest.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/DigestType.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/AES+Foundation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/Array+Foundation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/Blowfish+Foundation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/Data+Extension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/HMAC+Foundation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/String+FoundationExtension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Foundation/Utils+Foundation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Generics.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/HKDF.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/HMAC.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/ISO78164Padding.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Int+Extension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/MD5.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/NoPadding.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Operators.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/PKCS/PBKDF1.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/PKCS/PBKDF2.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/PKCS/PKCS5.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/PKCS/PKCS7.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/PKCS/PKCS7Padding.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Padding.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Poly1305.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Rabbit.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/SHA1.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/SHA2.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/SHA3.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Scrypt.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/SecureBytes.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/StreamDecryptor.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/StreamEncryptor.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/String+Extension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/UInt128.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/UInt16+Extension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/UInt32+Extension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/UInt64+Extension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/UInt8+Extension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Updatable.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/Utils.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/CryptoSwift/Sources/CryptoSwift/ZeroPadding.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Fuzi/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Fuzi/README-ja.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Fuzi/Sources/Document.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Fuzi/Sources/Element.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Fuzi/Sources/Error.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Fuzi/Sources/Helpers.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Fuzi/Sources/Node.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Fuzi/Sources/NodeSet.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Fuzi/Sources/Queryable.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServer.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServerConnection.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServerConnection.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServerFunctions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServerFunctions.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServerPrivate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServerRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServerRequest.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServerResponse.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Core/GCDWebServerResponse.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Requests/GCDWebServerDataRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Requests/GCDWebServerDataRequest.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Requests/GCDWebServerFileRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Requests/GCDWebServerFileRequest.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Responses/GCDWebServerDataResponse.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Responses/GCDWebServerDataResponse.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Responses/GCDWebServerErrorResponse.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Responses/GCDWebServerErrorResponse.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Responses/GCDWebServerFileResponse.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Responses/GCDWebServerFileResponse.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Responses/GCDWebServerStreamedResponse.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/GCDWebServer/Responses/GCDWebServerStreamedResponse.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GCDWebServer/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Cache/CacheSerializer.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Cache/DiskStorage.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Cache/FormatIndicatedCacheSerializer.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Cache/ImageCache.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Cache/MemoryStorage.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Cache/Storage.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Extensions/ImageView+Kingfisher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Extensions/NSButton+Kingfisher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Extensions/NSTextAttachment+Kingfisher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Extensions/TVMonogramView+Kingfisher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Extensions/UIButton+Kingfisher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Extensions/WKInterfaceImage+Kingfisher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/General/ImageSource/AVAssetImageDataProvider.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/General/ImageSource/ImageDataProvider.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/General/ImageSource/Resource.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/General/ImageSource/Source.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/General/KF.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/General/KFOptionsSetter.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/General/Kingfisher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/General/KingfisherError.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/General/KingfisherManager.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/General/KingfisherOptionsInfo.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Image/Filter.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Image/GIFAnimatedImage.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Image/Image.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Image/ImageDrawing.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Image/ImageFormat.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Image/ImageProcessor.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Image/ImageProgressive.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Image/ImageTransition.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Image/Placeholder.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Networking/AuthenticationChallengeResponsable.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Networking/ImageDataProcessor.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Networking/ImageDownloader.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Networking/ImageDownloaderDelegate.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Networking/ImageModifier.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Networking/ImagePrefetcher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Networking/RedirectHandler.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Networking/RequestModifier.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Networking/RetryStrategy.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Networking/SessionDataTask.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Networking/SessionDelegate.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/SwiftUI/ImageBinder.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/SwiftUI/KFImage.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/SwiftUI/KFImageOptions.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Utility/Box.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Utility/CallbackQueue.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Utility/Delegate.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Utility/ExtensionHelpers.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Utility/Result.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Utility/Runtime.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Utility/SizeExtensions.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Utility/String+MD5.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Views/AnimatedImageView.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Kingfisher/Sources/Views/Indicator.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/GCDWebServer.podspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/R2Navigator.podspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/R2Shared.podspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/R2Streamer.podspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/ReadiumOPDS.podspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/MBProgressHUD/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/MBProgressHUD/MBProgressHUD.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/MBProgressHUD/MBProgressHUD.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/MBProgressHUD/README.mdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/aes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/aes_via_ace.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/aescrypt.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/aeskey.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/aesopt.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/aestab.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/aestab.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/brg_endian.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/brg_types.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/entropy.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/entropy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/fileenc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/fileenc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/hmac.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/hmac.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/prng.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/prng.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/pwd2key.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/pwd2key.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/sha1.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/aes/sha1.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/crypt.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/ioapi.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/ioapi.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/ioapi_buf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/ioapi_buf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/ioapi_mem.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/ioapi_mem.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/unzip.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/unzip.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/zip.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Minizip/Vendor/Minizip/zip.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/CryptoSwift.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/Fuzi.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/GCDWebServer.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/Kingfisher.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/MBProgressHUD.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/Minizip.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/Pods-Podstest.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/R2Navigator.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/R2Shared.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/R2Streamer.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/ReadiumOPDS.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/SQLite.swift.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/SwiftSoup.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/joasjo.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/CBZ/CBZNavigatorViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/CBZ/ImageViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/EPUBFixedSpreadView.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/EPUBNavigatorViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/EPUBReflowableSpreadView.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/EPUBSpread.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/EPUBSpreadView.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Scripts/css-inline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Scripts/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Scripts/fixed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Scripts/gestures.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Scripts/reflowable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Scripts/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/ReadiumCSS-after.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/ReadiumCSS-before.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/ReadiumCSS-default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/ReadiumCSS-ebpaj_fonts_patch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/cjk-horizontal/ReadiumCSS-after.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/cjk-horizontal/ReadiumCSS-before.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/cjk-horizontal/ReadiumCSS-default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/cjk-vertical/ReadiumCSS-after.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/cjk-vertical/ReadiumCSS-before.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/cjk-vertical/ReadiumCSS-default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/fonts/AccessibleDfA.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/fonts/LICENSE-AccessibleDfa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/fonts/LICENSE-IaWriterDuospace.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/fonts/iAWriterDuospace-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/rtl/ReadiumCSS-after.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/rtl/ReadiumCSS-before.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/Static/readium-css/rtl/ReadiumCSS-default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/fxl-spread-one.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/Resources/fxl-spread-two.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EPUB/UserSettings.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/EditingAction.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/Navigator.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/PDF/PDFDocumentHolder.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/PDF/PDFDocumentView.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/PDF/PDFNavigatorViewController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/PDF/PDFTapGestureController.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/Resources/en.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/Toolkit/CompletionList.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/Toolkit/Extensions/WKWebView.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/Toolkit/PaginationView.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/Toolkit/R2NavigatorLocalizedString.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/Toolkit/TargetAction.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/Toolkit/UIColor.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/Toolkit/UIView.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/Toolkit/WebView.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/VisualNavigator.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Navigator/r2-navigator-swift/r2-navigator-swift.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/DRM/DRM+Deprecated.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/ArchiveFetcher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/Fetcher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/FileFetcher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/HTTPFetcher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/ProxyFetcher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/Resource/CachingResource.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/Resource/DataResource.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/Resource/FailureResource.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/Resource/LazyResource.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/Resource/ProxyResource.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/Resource/Resource.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/Resource/TransformingResource.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/RoutingFetcher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Fetcher/TransformingFetcher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Logger/Loggable.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Logger/Logger.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Logger/LoggerStub.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/OPDS/Facet.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/OPDS/Feed.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/OPDS/Group.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/OPDS/OPDSAcquisition.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/OPDS/OPDSAvailability.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/OPDS/OPDSCopies.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/OPDS/OPDSHolds.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/OPDS/OPDSPrice.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/OPDS/OpdsMetadata.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Asset/FileAsset.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Asset/PublicationAsset.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/ContentLayout.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/ContentProtection.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Contributor.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/EPUB/EPUBLayout.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/EPUB/Properties+EPUB.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/EPUB/Publication+EPUB.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Encryption/Encryption.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Encryption/Properties+Encryption.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/HTML/DOMRange.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/HTML/Locator+HTML.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Link.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/LinkRelation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/LocalizedString.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Locator.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Manifest.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Media Overlays/MediaOverlayNode.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Media Overlays/MediaOverlays.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Metadata.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/OPDS/Properties+OPDS.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/OPDS/Publication+OPDS.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Presentation/Metadata+Presentation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Presentation/Presentation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Presentation/Properties+Presentation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Properties.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Publication+Deprecated.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Publication+JSON.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Publication.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/PublicationCollection.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/ReadingProgression.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Services/Content Protection/ContentProtectionService+WS.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Services/Content Protection/ContentProtectionService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Services/Content Protection/UserRights.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Services/Cover/CoverService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Services/Cover/GeneratedCoverService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Services/Locator/DefaultLocatorService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Services/Locator/LocatorService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Services/Positions/PerResourcePositionsService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Services/Positions/PositionsService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Services/PublicationService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Services/PublicationServicesBuilder.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/Subject.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/User Settings/UserProperties.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Publication/User Settings/UserSettings.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Resources/en.lproj/Localizable.strings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/RootFile.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Archive/Archive.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Archive/ExplodedArchive.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Archive/Minizip.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/CancellableResult.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/ControlFlow.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Date+ISO8601.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Deferred.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/DocumentTypes.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/DownloadSession.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Either.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Extensions/Array.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Extensions/NSRegularExpression.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Extensions/Optional.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Extensions/Result.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Extensions/String.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Extensions/StringEncoding.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Extensions/UIImage.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Extensions/URL.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/HREF.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/JSON.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Logging/WarningLogger.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Media Type/MediaType+Deprecated.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Media Type/MediaType.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Media Type/MediaTypeSniffer.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Media Type/MediaTypeSnifferContent.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Media Type/MediaTypeSnifferContext.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Media/AudioSession.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Media/NowPlayingInfo.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/Observable.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/PDF/CGPDF.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/PDF/PDFDocument.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/PDF/PDFKit.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/PDF/PDFOutlineNode.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/R2LocalizedString.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/ResourcesServer.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/URITemplate.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/UTI.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/XML/Fuzi.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/Toolkit/XML/XML.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Shared/r2-shared-swift/r2-shared-swift.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Model/Container.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Model/HTTPContainer.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Model/PublicationContainer.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/Audio/AudioParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/Audio/Services/AudioLocatorService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/EPUBContainerParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/EPUBEncryptionParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/EPUBMetadataParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/EPUBParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/Extensions/Presentation+EPUB.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/NCXParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/NavigationDocumentParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/OPFMeta.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/OPFParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/Resource Transformers/EPUBDeobfuscator.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/Resource Transformers/EPUBHTMLInjector.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/SMILParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/EPUB/Services/EPUBPositionsService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/Image/CBZParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/Image/ImageParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/PDF/PDFFileParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/PDF/PDFParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/PDF/Services/LCPDFPositionsService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/PDF/Services/PDFPositionsService.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/Parser+Deprecated.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/PublicationParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Parser/Readium/ReadiumWebPubParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Resources/fonts/OpenDyslexic-Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Server/PublicationServer.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Server/WebServerResourceResponse.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Streamer.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/DataCompression.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/DataExtension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/Extensions/Fetcher.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/Logger.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/Streams/DataInputStream.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/Streams/FileInputStream.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/Streams/ResourceInputStream.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/Streams/Seekable.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/Streams/ZIPInputStream.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/StringExtension.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/ZIPArchive/ZIPArchive.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/Toolkit/ZIPArchive/Zip.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/r2-streamer-swift-Bridging-Header.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/R2Streamer/r2-streamer-swift/r2-streamer-swift.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/ReadiumOPDS/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/ReadiumOPDS/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/ReadiumOPDS/readium-opds/Deprecated.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/ReadiumOPDS/readium-opds/OPDS1Parser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/ReadiumOPDS/readium-opds/OPDS2Parser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/ReadiumOPDS/readium-opds/OPDSParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/ReadiumOPDS/readium-opds/ParseData.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/ReadiumOPDS/readium-opds/URLHelper.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/ReadiumOPDS/readium-opds/readium_opds.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Core/Blob.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Core/Connection.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Core/Errors.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Core/Statement.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Core/Value.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Extensions/FTS4.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Extensions/FTS5.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Extensions/RTree.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Foundation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Helpers.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/SQLite.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/AggregateFunctions.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Coding.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Collation.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/CoreFunctions.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/CustomFunctions.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/DateAndTimeFunctions.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Expression.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Operators.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Query.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Schema.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Setter.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLiteObjc/SQLiteObjc.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLiteObjc/fts3_tokenizer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLiteObjc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/ArrayExt.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Attribute.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Attributes.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/BinarySearch.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/BooleanAttribute.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/CharacterExt.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/CharacterReader.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Cleaner.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Collector.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/CombiningEvaluator.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Comment.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Connection.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/CssSelector.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/DataNode.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/DataUtil.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Document.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/DocumentType.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Element.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Elements.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Entities.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Evaluator.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Exception.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/FormElement.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/HtmlTreeBuilder.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/HtmlTreeBuilderState.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/HttpStatusException.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Node.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/NodeTraversor.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/NodeVisitor.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/OrderedSet.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/ParseError.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/ParseErrorList.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/ParseSettings.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Parser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Pattern.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/QueryParser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/SerializationException.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/SimpleDictionary.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/StreamReader.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/String.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/StringBuilder.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/StringUtil.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/StructuralEvaluator.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/SwiftSoup.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Tag.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/TextNode.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Token.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/TokenQueue.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Tokeniser.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/TokeniserState.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/TreeBuilder.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/UnicodeScalar.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Validate.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/Whitelist.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/XmlDeclaration.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/SwiftSoup/Sources/XmlTreeBuilder.swift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/CryptoSwift/CryptoSwift-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/CryptoSwift/CryptoSwift-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/CryptoSwift/CryptoSwift-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/CryptoSwift/CryptoSwift-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/CryptoSwift/CryptoSwift.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/CryptoSwift/CryptoSwift.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/CryptoSwift/CryptoSwift.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Fuzi/Fuzi-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Fuzi/Fuzi-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Fuzi/Fuzi-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Fuzi/Fuzi-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Fuzi/Fuzi.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Fuzi/Fuzi.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Fuzi/Fuzi.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GCDWebServer/GCDWebServer-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GCDWebServer/GCDWebServer-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GCDWebServer/GCDWebServer-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GCDWebServer/GCDWebServer-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GCDWebServer/GCDWebServer.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GCDWebServer/GCDWebServer.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GCDWebServer/GCDWebServer.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Kingfisher/Kingfisher-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Kingfisher/Kingfisher-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Kingfisher/Kingfisher-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Kingfisher/Kingfisher-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Kingfisher/Kingfisher.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Kingfisher/Kingfisher.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Kingfisher/Kingfisher.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MBProgressHUD/MBProgressHUD-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MBProgressHUD/MBProgressHUD.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MBProgressHUD/MBProgressHUD.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/MBProgressHUD/MBProgressHUD.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Minizip/Minizip-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Minizip/Minizip-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Minizip/Minizip-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Minizip/Minizip-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Minizip/Minizip.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Minizip/Minizip.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Minizip/Minizip.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest-acknowledgements.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest-acknowledgements.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest-frameworks-Debug-input-files.xcfilelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest-frameworks-Debug-output-files.xcfilelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest-frameworks-Release-input-files.xcfilelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest-frameworks-Release-output-files.xcfilelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest-frameworks.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Podstest/Pods-Podstest.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Navigator/R2Navigator-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Navigator/R2Navigator-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Navigator/R2Navigator-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Navigator/R2Navigator-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Navigator/R2Navigator.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Navigator/R2Navigator.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Navigator/R2Navigator.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Shared/R2Shared-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Shared/R2Shared-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Shared/R2Shared-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Shared/R2Shared-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Shared/R2Shared.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Shared/R2Shared.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Shared/R2Shared.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Streamer/R2Streamer-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Streamer/R2Streamer-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Streamer/R2Streamer-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Streamer/R2Streamer-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Streamer/R2Streamer.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Streamer/R2Streamer.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/R2Streamer/R2Streamer.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReadiumOPDS/ReadiumOPDS-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReadiumOPDS/ReadiumOPDS-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReadiumOPDS/ReadiumOPDS-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReadiumOPDS/ReadiumOPDS-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReadiumOPDS/ReadiumOPDS.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReadiumOPDS/ReadiumOPDS.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReadiumOPDS/ReadiumOPDS.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SwiftSoup/SwiftSoup-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SwiftSoup/SwiftSoup-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SwiftSoup/SwiftSoup-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SwiftSoup/SwiftSoup-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SwiftSoup/SwiftSoup.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SwiftSoup/SwiftSoup.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/SwiftSoup/SwiftSoup.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -678,13 +38,13 @@
         <counts>
           <entry key="Podfile" value="6" />
           <entry key="gitignore" value="13" />
-          <entry key="md" value="125" />
+          <entry key="md" value="222" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="125" />
+          <entry key="Markdown" value="222" />
           <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
@@ -701,19 +61,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -731,8 +91,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Podfile" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -771,7 +131,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618307762706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618308532520" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -805,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618305232078</updated>
       <workItem from="1618305233602" duration="188000" />
-      <workItem from="1618306163481" duration="1596000" />
+      <workItem from="1618306163481" duration="2267000" />
     </task>
     <task id="LOCAL-00001" summary="Add .gitignore">
       <created>1618307641330</created>
@@ -814,11 +174,18 @@
       <option name="project" value="LOCAL" />
       <updated>1618307641330</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add .gitignore">
+      <created>1618307773666</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618307773666</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1784000" />
+    <option name="totallyTimeSpent" value="2455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="985" extended-state="0" />
@@ -874,20 +241,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
